@@ -43,7 +43,6 @@ def total_gross(source)
    count = 0 
    
    while count < source.length do
-     binding.pry
      grand_total += totals_by_director[directors[count]]
      
      
