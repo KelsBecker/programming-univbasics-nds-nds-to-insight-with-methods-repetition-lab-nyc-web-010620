@@ -43,6 +43,8 @@ def total_gross(source)
    
    while directors < source.length do
      grand_total += totals_by_directors(directors)
+     
+     
      count += 1 
    
     end
